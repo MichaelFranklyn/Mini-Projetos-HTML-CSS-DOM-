@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+    width: 320px;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+    padding: 2px;
+}
+
+.divPais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}

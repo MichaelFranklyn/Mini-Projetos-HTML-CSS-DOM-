@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 64px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    background: #313131;
+}
+
+.btsPrin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 88px;
+}
+
+.btUltimo {
+    display: flex;
+    align-items: center;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1376px;
+    
+    padding: 152px 43px 0 43px;
+    margin-left: 64px;
+    
+    color: #000000;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.conjImagem {
+    width: 1290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+    display: flex;
+    justify-content:space-between;
+
+    margin-top: 18px;
+    margin-bottom: 40px;
+
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.tempo {
+    color: #5C5C5C;
+}
+
+.conjImagem2 {
+    display: flex;
+    justify-content:space-between;
+    width: 630px;
+}
+
+.menuAberto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 199px;
+    height: 100vh;
+    padding: 20px 25px 20px 20px;
+    position: fixed;
+    background: #313131;
+}
+
+.menuAberto p {
+    cursor: pointer;
+}
+
+.superior, .teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 156px;
+}
+
+.sup2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.info, .info2 {
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.info img, .info2 img {
+    margin-right: 25px;
+}
+
+.modal {
+    background-color: hsl(0, 0%, 0%, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btFechar {
+    position: absolute;
+    right: 45px;
+    top: 90px;
+}
+
+.btFechar img {
+    width: 34px;
+    height: 34px;
+}
+
+.modalImagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 825px;
+    position: relative;
+}
+
+.imgCentral img {
+    width: 555px;
+    height: 370px;
+}
+
+.setas {
+    display: flex;
+    align-items: center;
+}
+
+.setas img {
+    width: 35px;
+    height: 70px;
+    position: absolute;
+}
+
+.imgCoracaoModal {
+    position: absolute;
+    right: 155px;
+    top: 20px;
+}
+
+.imgCoracaoModal img {
+    width: 34px;
+    height: 29px;
+}
+
+.img {
+    position: relative;
+}
+
+.imgCoracaoCorpo {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.imgCoracaoCorpo img {
+    width: 34px;
+    height: 29px;
+}
+
+.escondido {
+    display: none;
+}
